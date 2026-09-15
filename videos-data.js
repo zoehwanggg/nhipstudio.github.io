@@ -30,4 +30,6 @@ const VIDEOS = [
      note: "Áp dụng Pop In box tagline + Shake promotion + Shimmer quanh box voucher." },
    { title: "Geely EX2", file: "videos/Geely EX2.mp4",
      note: "Áp dụng Typewriter cho tagline + Light Sweep element dải lụa + Flip thẻ xe." },
+   { title: "Redmi Note 15", file: "videos/Redmi Note 15.mp4",
+     note: "Áp dụng Lightsweep cho sản phẩm và Promotion + Pulse promotion." },
 ];
