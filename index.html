@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NHỊP — Thư viện hiệu ứng &amp; video tham khảo cho banner</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="shell">
+
+  <div class="topbar">
+    <div class="brand">
+      <div class="brand-mark">NHỊP<span>.</span></div>
+      <div class="brand-tag">Thư viện hiệu ứng chuyển động cho banner quảng cáo — dùng nội bộ.</div>
+    </div>
+    <div class="tabs">
+      <button class="tab-btn active" data-view="library">Thư viện hiệu ứng</button>
+      <button class="tab-btn" data-view="videos">Video tham khảo</button>
+    </div>
+  </div>
+
+  <!-- ============ VIEW 1: LIBRARY ============ -->
+  <div class="view active" id="view-library">
+    <p class="lib-intro">34 hiệu ứng thường gặp trong quảng cáo, dựng bằng chuyển động thật và chia theo 6 nhóm mục đích sử dụng. Bấm vào nhãn để lọc theo nhóm.</p>
+    <p class="lib-note">Tham khảo cấu trúc từ thư viện hiệu ứng nội bộ của AWING; do trang tham khảo dựng trên Canva (client-side, không đọc được nội dung tự động), thư viện dưới đây được dựng lại độc lập theo các nhóm hiệu ứng phổ biến nhất trong ngành.</p>
+    <div class="chip-row" id="chipRow"></div>
+    <div id="libraryContent"></div>
+  </div>
+
+  <!-- ============ VIEW 2: VIDEOS ============ -->
+  <div class="view" id="view-videos">
+    <p class="lib-intro">Video banner thật do team tự làm, lưu ngay trong thư mục <code>videos/</code> của trang này — để mọi người xem tham khảo cách áp dụng hiệu ứng vào banner thật.</p>
+    <p class="lib-note">Muốn thêm video mới? Mở file <code>videos-data.js</code>, làm theo hướng dẫn ghi sẵn trong đó — không cần sửa gì ở các file khác.</p>
+    <div id="videoGrid"></div>
+  </div>
+
+</div>
+
+<script src="videos-data.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+Thư mục này là nơi chứa các file video (.mp4) tham khảo.
+
+Cách thêm 1 video mới:
+1. Copy file .mp4 vào thẳng thư mục "videos" này (cùng cấp với file txt này).
+2. Mở file "videos-data.js" ở thư mục gốc, thêm 1 dòng theo mẫu có sẵn trong đó.
+3. Lưu lại, mở lại index.html (hoặc load lại trang nếu đang host) là thấy video xuất hiện.
+
+Có thể xóa file .txt này đi, nó chỉ để giữ chỗ cho thư mục khi nén/gửi zip.
