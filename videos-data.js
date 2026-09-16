@@ -32,8 +32,6 @@ const VIDEOS = [
      note: "Áp dụng Typewriter cho tagline + Light Sweep element dải lụa + Flip thẻ xe." },
    { title: "Redmi Note 15", file: "videos/Redmi Note 15.mp4",
      note: "Áp dụng Lightsweep cho sản phẩm và Promotion + Pulse promotion." },
-    { title: "Grab sinh viên_bike", file: "videos/Grab sinh viên_bike.mp4",
-     note: "Áp dụng Zoom In, Wiggle, Light Sweep cho tagline + Rotation cho logo." },
    { title: "H&S", file: "videos/H&S.mp4",
      note: "Áp dụng Pop in cho tagline + Pop in và Ring pulse thông tin sản phẩm + Lightsweep cho sản phẩm." },
 
